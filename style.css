@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+}
+
+.container-div {
+    background-color: #f5f8fa;
+}
+
+.navlink {
+    list-style: none;
+}
+
+.navlink li {
+    display: inline-block;
+    padding: 0px 20px;
+    gap: 0;
+}
+
+.navlink li p {
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.navlink li p:hover {
+    color: rgb(244, 9, 9);
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.navbar {
+    background: #1179bf;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 5%;
+}
+
+
+.info {
+    width: 60%;
+    margin: 20px 10%;
+}
+
+.information {
+    padding-top: 20px;
+}
+
+.namediv {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 40%;
+    padding-top: 10px;
+    }
+
+.maildiv {
+    justify-content: center;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.maildiv input {
+    width: 90%;
+}
+
+.carddiv input {
+    width: 100%;
+}
+
+
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.container-section {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.information-section {
+    width: 60%;
+    height: auto;
+    background-color: white;
+}
+
+.freelance-section {
+    width: 40%;
+    height: auto;
+    background-color: #1179bf;
+    color: white;
+}
+
+.paymentdiv {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.carddiv {
+    padding-top: 10px;
+}
+
+.Buy {
+    text-align: center;
+    background-color: green;
+    color: white;
+    box-shadow: 10px;
+    width: 80%;
+    height: 50%;
+    outline: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.buy:hover {
+    color: blue;
+}
+
+.buttondiv {
+    padding-top: 30px;
+    padding-left: 20%;
+}
+
+
+
+.helpbox {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.stripediv {
+    padding-top: 20px;
+    padding-left: 50%;
+    padding-bottom: 50px;
+}
+
+.stripe-button {
+    background-color: grey;
+    color: beige;
+}
+
+.freelandiv {
+    margin: 30%;
+}
+
+input {
+    background-color: rgb(237, 235, 235);
+    border: none;
+    outline: none;
+}
